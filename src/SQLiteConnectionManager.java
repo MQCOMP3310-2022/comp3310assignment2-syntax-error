@@ -65,7 +65,7 @@ public class SQLiteConnectionManager {
      * @return true if the file exists in the correct location, false otherwise. If no url defined, also false.
      */
     public boolean checkIfConnectionDefined(){
-        if(databaseURL == ""){
+        if("".equals(databaseURL)){
             return false;
         }else{
             try (Connection conn = DriverManager.getConnection(databaseURL)) {
@@ -86,7 +86,7 @@ public class SQLiteConnectionManager {
      * @return true if the table structures have been created.
      */
     public boolean createWordleTables(){
-        if(databaseURL != ""){
+        if(!"".equals(databaseURL)){
             try (   Connection conn = DriverManager.getConnection(databaseURL);
                     Statement stmt = conn.createStatement()
                 ) 
@@ -172,14 +172,8 @@ public class SQLiteConnectionManager {
                     {
                         int result = resultRows.getInt("total");
                         System.out.println("Total found:" + result);
-                        if(result >= 1)
-                        {
-                            return true;
-                        } 
-                        else
-                        {
-                            return false;
-                        }
+
+                        return result >= 1;
                     }
                      
                 }

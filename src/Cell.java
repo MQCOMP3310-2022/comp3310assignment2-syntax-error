@@ -123,7 +123,8 @@ public class Cell extends Rectangle{
     public String getStoredCharacter(){
         return "" + displayCharacter;
     }
-
+    
+    @Override
     public String toString(){
         return Integer.toString(col) + Integer.toString(row) + ":'" + displayCharacter + "'";
     }
