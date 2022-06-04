@@ -5,11 +5,14 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class SQLiteConnectionManager {
 
     //private Connection wordleDBConn = null;
     private String databaseURL = "";
+    private static final Logger logger = Logger.getLogger(App.class.getName());
     
     private String wordleDropTableString = "DROP TABLE IF EXISTS wordlist;";
     private String wordleCreateString = 
@@ -49,9 +52,8 @@ public class SQLiteConnectionManager {
         try (Connection conn = DriverManager.getConnection(databaseURL)) {
             if (conn != null) {
                 DatabaseMetaData meta = conn.getMetaData();
-                System.out.println("The driver name is " + meta.getDriverName());
-                System.out.println("A new database has been created.");
-                
+                logger.log(Level.INFO,"The driver name is " + meta.getDriverName());
+                logger.log(Level.INFO,"A new database has been created.");
             }
 
         } catch (SQLException e) {
@@ -64,8 +66,9 @@ public class SQLiteConnectionManager {
      *
      * @return true if the file exists in the correct location, false otherwise. If no url defined, also false.
      */
+    //CODE ISSUE 5.1 - CompareObjectsWithEquals
     public boolean checkIfConnectionDefined(){
-        if(databaseURL == ""){
+        if("".equals(databaseURL)){
             return false;
         }else{
             try (Connection conn = DriverManager.getConnection(databaseURL)) {
@@ -86,7 +89,8 @@ public class SQLiteConnectionManager {
      * @return true if the table structures have been created.
      */
     public boolean createWordleTables(){
-        if(databaseURL != ""){
+        //CODE ISSUE 5.2 - CompareObjectsWithEquals
+        if(!"".equals(databaseURL)){
             try (   Connection conn = DriverManager.getConnection(databaseURL);
                     Statement stmt = conn.createStatement()
                 ) 
@@ -99,7 +103,7 @@ public class SQLiteConnectionManager {
                     return true;  
                 } 
             } catch (SQLException e) {
-                System.out.println(e.getMessage());
+                logger.log(Level.WARNING,e.getMessage());
                 return false;
             }
             
@@ -123,7 +127,7 @@ public class SQLiteConnectionManager {
             pstmt.setString(2, word);
             pstmt.executeUpdate();
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
+            logger.log(Level.WARNING,e.getMessage());
         }
 
     }
@@ -140,15 +144,15 @@ public class SQLiteConnectionManager {
             //pstmt.setInt(1, index);
             ResultSet cursor = pstmt.executeQuery();
             if(cursor.next()){
-                System.out.println("successful next curser sqlite");
+                logger.log(Level.INFO,"successful next curser sqlite");
                 result = cursor.getString(1);
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-        System.out.println("getWordAtIndex===========================");
-        System.out.println("sql: " + sql);
-        System.out.println("result: " + result);
+        logger.log(Level.INFO,"getWordAtIndex===========================");
+        logger.log(Level.INFO,"sql: " + sql);
+        logger.log(Level.INFO,"result: " + result);
 
         return result;
     }
@@ -171,22 +175,16 @@ public class SQLiteConnectionManager {
                     while (resultRows.next())
                     {
                         int result = resultRows.getInt("total");
-                        System.out.println("Total found:" + result);
-                        if(result >= 1)
-                        {
-                            return true;
-                        } 
-                        else
-                        {
-                            return false;
-                        }
+                        logger.log(Level.INFO,"Total found:" + result);
+
+                        return result >= 1;
                     }
                      
                 }
                 return false;
 
             } catch (SQLException e) {
-                System.out.println(e.getMessage());
+                logger.log(Level.WARNING,e.getMessage());
                 return false;
             }
 
