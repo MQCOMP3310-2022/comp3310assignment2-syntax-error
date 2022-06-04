@@ -26,3 +26,6 @@ replay_pid*
 
 #Mac index files
 .DS_Store
+
+#.db file
+*.db
