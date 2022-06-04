@@ -14,7 +14,6 @@ public class Board {
     SQLiteConnectionManager wordleDatabaseConnection;
     int secretWordIndex;
     int numberOfWords;
-    //String theWord;
 
     public Board(){
         wordleDatabaseConnection = new SQLiteConnectionManager("words.db");
