@@ -2,6 +2,8 @@ import java.awt.Graphics;
 import java.util.BitSet;
 import java.util.Iterator;
 import java.util.function.Consumer;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 public class Grid implements Iterable<Cell>{
@@ -11,6 +13,7 @@ public class Grid implements Iterable<Cell>{
     String wordToGuess;
     boolean gameFinished;
     SQLiteConnectionManager wordleDatabaseConnection;
+    private static final Logger logger = Logger.getLogger(App.class.getName());
     
     public Grid(int rows, int wordLength, SQLiteConnectionManager sqlConn){
         cells = new Cell[rows][wordLength];
@@ -53,10 +56,11 @@ public class Grid implements Iterable<Cell>{
      *
      * @param func The `Cell` to `void` function to apply at each spot.
      */
+    //CODE ISSUE 3 - ForLoopCanBeForeach
     public void doToEachCell(Consumer<Cell> func) {
-        for (int i = 0; i < cells.length; i++) {
-            for (int j = 0; j < cells[i].length; j++) {
-                func.accept(cells[i][j]);
+        for (Cell[] cellx : cells) {
+            for (Cell celly : cellx) {
+                func.accept(celly);
             }
         }
     }
@@ -84,9 +88,10 @@ public class Grid implements Iterable<Cell>{
     void keyPressedEnter(){
         if(!gameFinished){
             
+            //CODE ISSUE 4 - PositionLiteralsFirstInComparisons
             //is the row full? If so, let's compare!
             if( activeColumn == cells[activeRow].length -1 && 
-                !cells[activeRow][activeColumn].getStoredCharacter().equals(" ")){
+                !"".equals(cells[activeRow][activeColumn].getStoredCharacter())){
                 
                 if(checkActiveRowAgainstWord()){
                     //success!
@@ -111,6 +116,12 @@ public class Grid implements Iterable<Cell>{
                         activeRow++;
                         activeColumn = 0;
                         cells[activeRow][activeColumn].setActive();
+                        if(activeRow >= cells.length-1){
+                            for(int i = 0; i < cells[activeRow].length; i++){
+                                cells[activeRow][i].setInactive();
+                                cells[activeRow][i].setState(5);
+                            }
+                        }
                     }
                 }
 
@@ -120,8 +131,10 @@ public class Grid implements Iterable<Cell>{
 
     void keyPressedLetter(char letter){
         if(!gameFinished){
-            System.out.println("grid keypress received letter: " + letter);
-            cells[activeRow][activeColumn].setCharacter(letter, 1);
+            char convertedLetter = Character.toLowerCase(letter);
+            //IMPLEMENTED LOGGER
+            logger.log(Level.INFO,"grid keypress received letter: " + convertedLetter);
+            cells[activeRow][activeColumn].setCharacter(convertedLetter, 1);
             if(activeColumn < cells[activeRow].length -1){
                 //not last character
                 cells[activeRow][activeColumn].setInactive();
@@ -191,5 +204,4 @@ public class Grid implements Iterable<Cell>{
         }
         return counter;
     }
-
 }
