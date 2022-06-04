@@ -6,7 +6,7 @@ import java.time.Instant;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-
+//CODE ISSUE 1 - ClassWithOnlyPrivateConstructorsShouldBeFinal 
 final class App extends JFrame {
 
     class WordleGame extends JPanel implements KeyListener{

@@ -53,6 +53,7 @@ public class Grid implements Iterable<Cell>{
      *
      * @param func The `Cell` to `void` function to apply at each spot.
      */
+    //CODE ISSUE 3 - ForLoopCanBeForeach
     public void doToEachCell(Consumer<Cell> func) {
         for (Cell[] cellx : cells) {
             for (Cell celly : cellx) {
@@ -84,6 +85,7 @@ public class Grid implements Iterable<Cell>{
     void keyPressedEnter(){
         if(!gameFinished){
             
+            //CODE ISSUE 4 - PositionLiteralsFirstInComparisons
             //is the row full? If so, let's compare!
             if( activeColumn == cells[activeRow].length -1 && 
                 !"".equals(cells[activeRow][activeColumn].getStoredCharacter())){

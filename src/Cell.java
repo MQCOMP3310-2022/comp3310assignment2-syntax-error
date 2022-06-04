@@ -124,6 +124,7 @@ public class Cell extends Rectangle{
         return "" + displayCharacter;
     }
     
+    //CODE ISSUE 2 - MissingOverride
     @Override
     public String toString(){
         return Integer.toString(col) + Integer.toString(row) + ":'" + displayCharacter + "'";

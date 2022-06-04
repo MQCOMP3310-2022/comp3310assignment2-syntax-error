@@ -64,6 +64,7 @@ public class SQLiteConnectionManager {
      *
      * @return true if the file exists in the correct location, false otherwise. If no url defined, also false.
      */
+    //CODE ISSUE 5.1 - CompareObjectsWithEquals
     public boolean checkIfConnectionDefined(){
         if("".equals(databaseURL)){
             return false;
@@ -86,6 +87,7 @@ public class SQLiteConnectionManager {
      * @return true if the table structures have been created.
      */
     public boolean createWordleTables(){
+        //CODE ISSUE 5.2 - CompareObjectsWithEquals
         if(!"".equals(databaseURL)){
             try (   Connection conn = DriverManager.getConnection(databaseURL);
                     Statement stmt = conn.createStatement()
