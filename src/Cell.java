@@ -63,7 +63,13 @@ public class Cell extends Rectangle{
                 backbgroundColor = Color.RED;
                 textColor = Color.WHITE;
                 isEmpty = false;
-                break; 
+                break;
+            case 5:
+                displayCharacter = ' ';
+                backbgroundColor = Color.ORANGE;
+                textColor = Color.WHITE;
+                isEmpty = true;
+                break;  
             default:
                 displayCharacter = ' ';
                 backbgroundColor = Color.DARK_GRAY;
