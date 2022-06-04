@@ -61,9 +61,7 @@ public class Board {
 
 
         grid = new Grid(6,4, wordleDatabaseConnection);
-        secretWordIndex = 2;
-        String theWord = wordleDatabaseConnection.getWordAtIndex(2);
-        grid.setWord(theWord.toLowerCase());
+        newWord();
     }
 
     public void resetBoard(){
@@ -73,6 +71,22 @@ public class Board {
     void paint(Graphics g){
         grid.paint(g);
     }    
+
+    void newWord() {
+        //On startup or when escape is pressed, the game will generate a random integer between 1 and the length of the database as the index.
+        //If any new words are added to the database, you do not need to change the max range value.
+        //There is a chance that it will generate the same integer as it did on startup, but this chance is low.
+        //Should we fix this?
+        String theWord;
+        secretWordIndex = (int)(Math.random() * (numberOfWords - 1) + 1);
+        theWord = wordleDatabaseConnection.getWordAtIndex(secretWordIndex);
+        //If the string is longer than 4 characters, trim it.
+        //Temporary fix as it would still allow nonsense words.
+        if (theWord.length() > 4) {
+            theWord = theWord.substring(0, Math.min(theWord.length(), 4));
+        }
+        grid.setWord(theWord);
+    }
 
     public void keyPressed(KeyEvent e){
         logger.log(Level.INFO,"Key Pressed! " + e.getKeyCode());
@@ -88,9 +102,7 @@ public class Board {
         if(e.getKeyCode() == KeyEvent.VK_ESCAPE){
             grid.keyPressedEscape();
             
-            secretWordIndex = ( secretWordIndex + 1 ) % numberOfWords;
-            String theWord = wordleDatabaseConnection.getWordAtIndex(secretWordIndex);
-            grid.setWord(theWord.toLowerCase());
+            newWord();
             logger.log(Level.INFO,"Escape Key");
         }
         if(e.getKeyCode()>= KeyEvent.VK_A && e.getKeyCode() <= KeyEvent.VK_Z){
