@@ -5,10 +5,12 @@ import java.time.Duration;
 import java.time.Instant;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import java.util.logging.*;
 
 
-public class App extends JFrame {
-
+public final class App extends JFrame {
+    //Logger was created for App.java
+    Logger logger = Logger.getLogger(App.class.getName());
     class WordleGame extends JPanel implements KeyListener{
         Board board;
         boolean stageBuilt = false;
@@ -64,9 +66,11 @@ public class App extends JFrame {
             try {
                 Thread.sleep(20L - howLong);
             } catch (InterruptedException e) {
-                System.out.println("thread was interrupted, but who cares?");
+                //Level is Info as message implies this isn't important
+                logger.log(Level.INFO, "thread was interrupted, but who cares?");
             } catch (IllegalArgumentException e) {
-                System.out.println("application can't keep up with framerate");
+                //Potential issue if this warning is logged.
+                logger.log(Level.WARNING,"application can't keep up with framerate");
             }
         }
     }
