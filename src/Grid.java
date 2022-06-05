@@ -131,6 +131,7 @@ public class Grid implements Iterable<Cell>{
 
     void keyPressedLetter(char letter){
         if(!gameFinished){
+            //Converts uppercase characters to lowercase.
             char convertedLetter = Character.toLowerCase(letter);
             //IMPLEMENTED LOGGER
             logger.log(Level.INFO,"grid keypress received letter: " + convertedLetter);

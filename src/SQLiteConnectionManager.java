@@ -52,7 +52,7 @@ public class SQLiteConnectionManager {
         try (Connection conn = DriverManager.getConnection(databaseURL)) {
             if (conn != null) {
                 DatabaseMetaData meta = conn.getMetaData();
-                logger.log(Level.INFO,"The driver name is " + meta.getDriverName());
+                logger.log(Level.CONFIG,"The driver name is " + meta.getDriverName());
                 logger.log(Level.INFO,"A new database has been created.");
             }
 
@@ -144,15 +144,15 @@ public class SQLiteConnectionManager {
             //pstmt.setInt(1, index);
             ResultSet cursor = pstmt.executeQuery();
             if(cursor.next()){
-                logger.log(Level.INFO,"successful next curser sqlite");
+                logger.log(Level.CONFIG,"successful next curser sqlite");
                 result = cursor.getString(1);
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-        logger.log(Level.INFO,"getWordAtIndex===========================");
-        logger.log(Level.INFO,"sql: " + sql);
-        logger.log(Level.INFO,"result: " + result);
+        logger.log(Level.CONFIG,"getWordAtIndex===========================");
+        logger.log(Level.CONFIG,"sql: " + sql);
+        logger.log(Level.CONFIG,"result: " + result);
 
         return result;
     }
@@ -175,7 +175,7 @@ public class SQLiteConnectionManager {
                     while (resultRows.next())
                     {
                         int result = resultRows.getInt("total");
-                        logger.log(Level.INFO,"Total found:" + result);
+                        logger.log(Level.CONFIG,"Total found:" + result);
 
                         return result >= 1;
                     }
