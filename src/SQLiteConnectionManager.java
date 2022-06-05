@@ -57,7 +57,7 @@ public class SQLiteConnectionManager {
             }
 
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
+            logger.log(Level.WARNING ,e.getMessage());
         }
     }
 
@@ -148,7 +148,7 @@ public class SQLiteConnectionManager {
                 result = cursor.getString(1);
             }
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
+            logger.log(Level.WARNING ,e.getMessage());
         }
         logger.log(Level.CONFIG,"getWordAtIndex===========================");
         logger.log(Level.CONFIG,"sql: " + sql);

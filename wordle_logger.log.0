@@ -1126,3 +1126,729 @@ Jun. 05, 2022 2:49:17 PM Grid keyPressedLetter
 INFO: grid keypress received letter: f
 Jun. 05, 2022 2:49:17 PM Board keyPressed
 INFO: Character Key
+June 05, 2022 3:08:03 PM SQLiteConnectionManager createNewDatabase
+INFO: A new database has been created.
+June 05, 2022 3:08:03 PM Board <init>
+INFO: Wordle created and connected.
+June 05, 2022 3:08:03 PM Board <init>
+INFO: Wordle structures in place.
+June 05, 2022 3:08:14 PM Board keyPressed
+INFO: Key Pressed! 80
+June 05, 2022 3:08:14 PM Grid keyPressedLetter
+INFO: grid keypress received letter: p
+June 05, 2022 3:08:14 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:14 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:08:14 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:08:14 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:14 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:08:14 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:08:14 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:14 PM Board keyPressed
+INFO: Key Pressed! 80
+June 05, 2022 3:08:14 PM Grid keyPressedLetter
+INFO: grid keypress received letter: p
+June 05, 2022 3:08:14 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:15 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:08:15 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Key Pressed! 67
+June 05, 2022 3:08:16 PM Grid keyPressedLetter
+INFO: grid keypress received letter: c
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Key Pressed! 82
+June 05, 2022 3:08:16 PM Grid keyPressedLetter
+INFO: grid keypress received letter: r
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Key Pressed! 73
+June 05, 2022 3:08:16 PM Grid keyPressedLetter
+INFO: grid keypress received letter: i
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Key Pressed! 78
+June 05, 2022 3:08:16 PM Grid keyPressedLetter
+INFO: grid keypress received letter: n
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Key Pressed! 71
+June 05, 2022 3:08:16 PM Grid keyPressedLetter
+INFO: grid keypress received letter: g
+June 05, 2022 3:08:16 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:17 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:17 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:17 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:17 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:18 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:18 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:18 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:18 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:18 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:18 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:19 PM Board keyPressed
+INFO: Key Pressed! 76
+June 05, 2022 3:08:19 PM Grid keyPressedLetter
+INFO: grid keypress received letter: l
+June 05, 2022 3:08:19 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:19 PM Board keyPressed
+INFO: Key Pressed! 65
+June 05, 2022 3:08:19 PM Grid keyPressedLetter
+INFO: grid keypress received letter: a
+June 05, 2022 3:08:19 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:19 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:08:19 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:08:19 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:20 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:20 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:21 PM Board keyPressed
+INFO: Key Pressed! 77
+June 05, 2022 3:08:21 PM Grid keyPressedLetter
+INFO: grid keypress received letter: m
+June 05, 2022 3:08:21 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:21 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:08:21 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:08:21 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:21 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:08:21 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:08:23 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:08:23 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:08:23 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:24 PM Board keyPressed
+INFO: Key Pressed! 82
+June 05, 2022 3:08:24 PM Grid keyPressedLetter
+INFO: grid keypress received letter: r
+June 05, 2022 3:08:24 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:24 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:08:24 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:08:24 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:26 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:26 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:26 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:26 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:26 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:26 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:26 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:26 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:27 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:27 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:27 PM Board keyPressed
+INFO: Key Pressed! 72
+June 05, 2022 3:08:27 PM Grid keyPressedLetter
+INFO: grid keypress received letter: h
+June 05, 2022 3:08:27 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:27 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:08:27 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:08:27 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:27 PM Board keyPressed
+INFO: Key Pressed! 82
+June 05, 2022 3:08:27 PM Grid keyPressedLetter
+INFO: grid keypress received letter: r
+June 05, 2022 3:08:27 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:28 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:08:28 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:08:28 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:28 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:08:28 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:08:35 PM Board keyPressed
+INFO: Key Pressed! 76
+June 05, 2022 3:08:35 PM Grid keyPressedLetter
+INFO: grid keypress received letter: l
+June 05, 2022 3:08:35 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:36 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:08:36 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:08:36 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:38 PM Board keyPressed
+INFO: Key Pressed! 78
+June 05, 2022 3:08:38 PM Grid keyPressedLetter
+INFO: grid keypress received letter: n
+June 05, 2022 3:08:38 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:38 PM Board keyPressed
+INFO: Key Pressed! 84
+June 05, 2022 3:08:38 PM Grid keyPressedLetter
+INFO: grid keypress received letter: t
+June 05, 2022 3:08:38 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:39 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:08:39 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:08:41 PM Board keyPressed
+INFO: Key Pressed! 78
+June 05, 2022 3:08:41 PM Grid keyPressedLetter
+INFO: grid keypress received letter: n
+June 05, 2022 3:08:41 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:41 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:08:41 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:08:41 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:41 PM Board keyPressed
+INFO: Key Pressed! 88
+June 05, 2022 3:08:41 PM Grid keyPressedLetter
+INFO: grid keypress received letter: x
+June 05, 2022 3:08:41 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:42 PM Board keyPressed
+INFO: Key Pressed! 84
+June 05, 2022 3:08:42 PM Grid keyPressedLetter
+INFO: grid keypress received letter: t
+June 05, 2022 3:08:42 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:42 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:42 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:44 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:44 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:44 PM Board keyPressed
+INFO: Key Pressed! 82
+June 05, 2022 3:08:44 PM Grid keyPressedLetter
+INFO: grid keypress received letter: r
+June 05, 2022 3:08:44 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:44 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:44 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:45 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:45 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:45 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:08:45 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:08:45 PM Board keyPressed
+INFO: Key Pressed! 78
+June 05, 2022 3:08:45 PM Grid keyPressedLetter
+INFO: grid keypress received letter: n
+June 05, 2022 3:08:45 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:45 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:08:45 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:08:45 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:46 PM Board keyPressed
+INFO: Key Pressed! 82
+June 05, 2022 3:08:46 PM Grid keyPressedLetter
+INFO: grid keypress received letter: r
+June 05, 2022 3:08:46 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:46 PM Board keyPressed
+INFO: Key Pressed! 68
+June 05, 2022 3:08:46 PM Grid keyPressedLetter
+INFO: grid keypress received letter: d
+June 05, 2022 3:08:46 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:08:46 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:08:46 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:09:00 PM Board keyPressed
+INFO: Key Pressed! 66
+June 05, 2022 3:09:00 PM Grid keyPressedLetter
+INFO: grid keypress received letter: b
+June 05, 2022 3:09:00 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:00 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:09:00 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:09:00 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:01 PM Board keyPressed
+INFO: Key Pressed! 78
+June 05, 2022 3:09:01 PM Grid keyPressedLetter
+INFO: grid keypress received letter: n
+June 05, 2022 3:09:01 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:01 PM Board keyPressed
+INFO: Key Pressed! 68
+June 05, 2022 3:09:01 PM Grid keyPressedLetter
+INFO: grid keypress received letter: d
+June 05, 2022 3:09:01 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:01 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:09:04 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:09:04 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:09:04 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:09:06 PM Board keyPressed
+INFO: Key Pressed! 27
+June 05, 2022 3:09:06 PM Board keyPressed
+INFO: Escape Key
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Key Pressed! 82
+June 05, 2022 3:09:32 PM Grid keyPressedLetter
+INFO: grid keypress received letter: r
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:09:32 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Key Pressed! 80
+June 05, 2022 3:09:32 PM Grid keyPressedLetter
+INFO: grid keypress received letter: p
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:09:32 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:09:32 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:09:35 PM Board keyPressed
+INFO: Key Pressed! 68
+June 05, 2022 3:09:35 PM Grid keyPressedLetter
+INFO: grid keypress received letter: d
+June 05, 2022 3:09:35 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:35 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:09:35 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:09:35 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:36 PM Board keyPressed
+INFO: Key Pressed! 78
+June 05, 2022 3:09:36 PM Grid keyPressedLetter
+INFO: grid keypress received letter: n
+June 05, 2022 3:09:36 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:36 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:09:36 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:09:36 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:36 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:09:36 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:09:41 PM Board keyPressed
+INFO: Key Pressed! 87
+June 05, 2022 3:09:41 PM Grid keyPressedLetter
+INFO: grid keypress received letter: w
+June 05, 2022 3:09:41 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:42 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:09:42 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:09:42 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:43 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:09:43 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:09:43 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:09:43 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:09:43 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:09:43 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:09:44 PM Board keyPressed
+INFO: Key Pressed! 87
+June 05, 2022 3:09:44 PM Grid keyPressedLetter
+INFO: grid keypress received letter: w
+June 05, 2022 3:09:44 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:44 PM Board keyPressed
+INFO: Key Pressed! 73
+June 05, 2022 3:09:44 PM Grid keyPressedLetter
+INFO: grid keypress received letter: i
+June 05, 2022 3:09:44 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:44 PM Board keyPressed
+INFO: Key Pressed! 76
+June 05, 2022 3:09:44 PM Grid keyPressedLetter
+INFO: grid keypress received letter: l
+June 05, 2022 3:09:44 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:45 PM Board keyPressed
+INFO: Key Pressed! 84
+June 05, 2022 3:09:45 PM Grid keyPressedLetter
+INFO: grid keypress received letter: t
+June 05, 2022 3:09:45 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:45 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:09:45 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:09:47 PM Board keyPressed
+INFO: Key Pressed! 87
+June 05, 2022 3:09:47 PM Grid keyPressedLetter
+INFO: grid keypress received letter: w
+June 05, 2022 3:09:47 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:47 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:09:47 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:09:47 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:49 PM Board keyPressed
+INFO: Key Pressed! 75
+June 05, 2022 3:09:49 PM Grid keyPressedLetter
+INFO: grid keypress received letter: k
+June 05, 2022 3:09:49 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:49 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:09:49 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:09:49 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:49 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:09:49 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:09:50 PM Board keyPressed
+INFO: Key Pressed! 75
+June 05, 2022 3:09:50 PM Grid keyPressedLetter
+INFO: grid keypress received letter: k
+June 05, 2022 3:09:50 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:50 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:09:50 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:09:50 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:52 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:09:52 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:09:52 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:09:52 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:09:52 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:09:52 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:09:54 PM Board keyPressed
+INFO: Key Pressed! 66
+June 05, 2022 3:09:54 PM Grid keyPressedLetter
+INFO: grid keypress received letter: b
+June 05, 2022 3:09:54 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:54 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:09:54 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:09:54 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:54 PM Board keyPressed
+INFO: Key Pressed! 78
+June 05, 2022 3:09:54 PM Grid keyPressedLetter
+INFO: grid keypress received letter: n
+June 05, 2022 3:09:54 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:55 PM Board keyPressed
+INFO: Key Pressed! 75
+June 05, 2022 3:09:55 PM Grid keyPressedLetter
+INFO: grid keypress received letter: k
+June 05, 2022 3:09:55 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:55 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:09:55 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:09:57 PM Board keyPressed
+INFO: Key Pressed! 66
+June 05, 2022 3:09:57 PM Grid keyPressedLetter
+INFO: grid keypress received letter: b
+June 05, 2022 3:09:57 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:09:57 PM Board keyPressed
+INFO: Key Pressed! 79
+June 05, 2022 3:09:57 PM Grid keyPressedLetter
+INFO: grid keypress received letter: o
+June 05, 2022 3:09:57 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:09 PM Board keyPressed
+INFO: Key Pressed! 76
+June 05, 2022 3:10:09 PM Grid keyPressedLetter
+INFO: grid keypress received letter: l
+June 05, 2022 3:10:09 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:09 PM Board keyPressed
+INFO: Key Pressed! 75
+June 05, 2022 3:10:09 PM Grid keyPressedLetter
+INFO: grid keypress received letter: k
+June 05, 2022 3:10:09 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:09 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:10:10 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:10:10 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:10:10 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:10:15 PM Board keyPressed
+INFO: Key Pressed! 27
+June 05, 2022 3:10:15 PM Board keyPressed
+INFO: Escape Key
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Key Pressed! 82
+June 05, 2022 3:10:18 PM Grid keyPressedLetter
+INFO: grid keypress received letter: r
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:10:18 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:10:18 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Key Pressed! 68
+June 05, 2022 3:10:18 PM Grid keyPressedLetter
+INFO: grid keypress received letter: d
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:10:18 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:10:21 PM Board keyPressed
+INFO: Key Pressed! 78
+June 05, 2022 3:10:21 PM Grid keyPressedLetter
+INFO: grid keypress received letter: n
+June 05, 2022 3:10:21 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:22 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:10:22 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:10:22 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:23 PM Board keyPressed
+INFO: Key Pressed! 82
+June 05, 2022 3:10:23 PM Grid keyPressedLetter
+INFO: grid keypress received letter: r
+June 05, 2022 3:10:23 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:23 PM Board keyPressed
+INFO: Key Pressed! 68
+June 05, 2022 3:10:23 PM Grid keyPressedLetter
+INFO: grid keypress received letter: d
+June 05, 2022 3:10:23 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:23 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:10:23 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:10:26 PM Board keyPressed
+INFO: Key Pressed! 65
+June 05, 2022 3:10:26 PM Grid keyPressedLetter
+INFO: grid keypress received letter: a
+June 05, 2022 3:10:26 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:27 PM Board keyPressed
+INFO: Key Pressed! 83
+June 05, 2022 3:10:27 PM Grid keyPressedLetter
+INFO: grid keypress received letter: s
+June 05, 2022 3:10:27 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:29 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:10:29 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:10:30 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:10:30 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:10:30 PM Board keyPressed
+INFO: Key Pressed! 8
+June 05, 2022 3:10:30 PM Board keyPressed
+INFO: Backspace Key
+June 05, 2022 3:10:31 PM Board keyPressed
+INFO: Key Pressed! 65
+June 05, 2022 3:10:31 PM Grid keyPressedLetter
+INFO: grid keypress received letter: a
+June 05, 2022 3:10:31 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:31 PM Board keyPressed
+INFO: Key Pressed! 71
+June 05, 2022 3:10:31 PM Grid keyPressedLetter
+INFO: grid keypress received letter: g
+June 05, 2022 3:10:31 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:31 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:10:31 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:10:31 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:32 PM Board keyPressed
+INFO: Key Pressed! 68
+June 05, 2022 3:10:32 PM Grid keyPressedLetter
+INFO: grid keypress received letter: d
+June 05, 2022 3:10:32 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:10:32 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:10:32 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:10:33 PM Board keyPressed
+INFO: Key Pressed! 65
+June 05, 2022 3:10:33 PM Grid keyPressedLetter
+INFO: grid keypress received letter: a
+June 05, 2022 3:10:33 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:11:14 PM Board keyPressed
+INFO: Key Pressed! 67
+June 05, 2022 3:11:14 PM Grid keyPressedLetter
+INFO: grid keypress received letter: c
+June 05, 2022 3:11:14 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:11:16 PM Board keyPressed
+INFO: Key Pressed! 69
+June 05, 2022 3:11:16 PM Grid keyPressedLetter
+INFO: grid keypress received letter: e
+June 05, 2022 3:11:16 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:11:16 PM Board keyPressed
+INFO: Key Pressed! 68
+June 05, 2022 3:11:16 PM Grid keyPressedLetter
+INFO: grid keypress received letter: d
+June 05, 2022 3:11:16 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:11:16 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:11:16 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:11:18 PM Board keyPressed
+INFO: Key Pressed! 65
+June 05, 2022 3:11:18 PM Grid keyPressedLetter
+INFO: grid keypress received letter: a
+June 05, 2022 3:11:18 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:11:18 PM Board keyPressed
+INFO: Key Pressed! 67
+June 05, 2022 3:11:18 PM Grid keyPressedLetter
+INFO: grid keypress received letter: c
+June 05, 2022 3:11:18 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:11:21 PM Board keyPressed
+INFO: Key Pressed! 73
+June 05, 2022 3:11:21 PM Grid keyPressedLetter
+INFO: grid keypress received letter: i
+June 05, 2022 3:11:21 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:11:21 PM Board keyPressed
+INFO: Key Pressed! 68
+June 05, 2022 3:11:21 PM Grid keyPressedLetter
+INFO: grid keypress received letter: d
+June 05, 2022 3:11:21 PM Board keyPressed
+INFO: Character Key
+June 05, 2022 3:11:21 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:11:28 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:11:28 PM Board keyPressed
+INFO: Key Pressed! 10
+June 05, 2022 3:11:28 PM Board keyPressed
+INFO: Enter Key
+June 05, 2022 3:11:29 PM Board keyPressed
+INFO: Key Pressed! 27
+June 05, 2022 3:11:29 PM Board keyPressed
+INFO: Escape Key

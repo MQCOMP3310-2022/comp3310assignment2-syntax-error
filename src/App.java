@@ -26,7 +26,7 @@ public final class App extends JFrame {
     class WordleGame extends JPanel implements KeyListener{
         Board board;
         boolean stageBuilt = false;
-
+        
         public WordleGame(){
             setPreferredSize(new Dimension(330, 490));
             this.addKeyListener(this);
