@@ -107,6 +107,8 @@ public class Grid implements Iterable<Cell>{
                             cells[activeRow][i].setInactive();
                             cells[activeRow][i].setState(4);
                         }
+                        //PMD False positive: Just here to inform the player the word they got incorrect.
+                        logger.log(Level.OFF, "The answer was: "+ wordToGuess);
                         gameFinished = true;
                     }else{
                         //do stuff to highlihgt correct characters
