@@ -2,9 +2,8 @@ import java.awt.Graphics;
 import java.util.BitSet;
 import java.util.Iterator;
 import java.util.function.Consumer;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
+import java.util.logging.*;
+import javax.swing.JOptionPane;
 
 public class Grid implements Iterable<Cell>{
     Cell[][] cells;
@@ -99,6 +98,8 @@ public class Grid implements Iterable<Cell>{
                         cells[activeRow][i].setInactive();
                         cells[activeRow][i].setState(3);
                     }
+                    //Added a victory popup.
+                    JOptionPane.showMessageDialog(null, "Congratulations!", "You win!", JOptionPane.INFORMATION_MESSAGE);
                     gameFinished = true;
                 }else{
                     if(activeRow >= cells.length-1){
@@ -108,7 +109,9 @@ public class Grid implements Iterable<Cell>{
                             cells[activeRow][i].setState(4);
                         }
                         //PMD False positive: Just here to inform the player the word they got incorrect.
-                        logger.log(Level.OFF, "The answer was: "+ wordToGuess);
+                        //logger.log(Level.OFF, "The answer was: "+ wordToGuess);
+                        //Replaced the logger with a pop-up instead.
+                        JOptionPane.showMessageDialog(null, "The answer was: " + wordToGuess, "You lose!", JOptionPane.INFORMATION_MESSAGE);
                         gameFinished = true;
                     }else{
                         //do stuff to highlihgt correct characters
