@@ -73,9 +73,12 @@ public class Board {
     }    
 
     void newWord() {
-        //On startup or when escape is pressed, the game will generate a random integer between 1 and the length of the database as the index.
-        //If any new words are added to the database, you do not need to change the max range value.
-        //There is a chance that it will generate the same integer as it did on startup, but this chance is low.
+        //On startup or when escape is pressed, the game will generate a random integer
+        //between 1 and the length of the database as the index.
+        //If any new words are added to the database, you do not need to change the max
+        //range value.
+        //There is a chance that it will generate the same integer as it did on startup,
+        //but this chance is low.
         //Should we fix this?
         String theWord;
         secretWordIndex = (int)(Math.random() * (numberOfWords - 1) + 1);
@@ -109,6 +112,5 @@ public class Board {
             grid.keyPressedLetter(e.getKeyChar());
             logger.log(Level.INFO,"Character Key");
         }
-
     }
 }
