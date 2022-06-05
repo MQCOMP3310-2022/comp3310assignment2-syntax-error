@@ -88,7 +88,7 @@ public class Board {
         if (theWord.length() > 4) {
             theWord = theWord.substring(0, Math.min(theWord.length(), 4));
         }
-        grid.setWord(theWord);
+        grid.setWord(theWord.toLowerCase());
     }
 
     public void keyPressed(KeyEvent e){

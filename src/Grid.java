@@ -121,6 +121,7 @@ public class Grid implements Iterable<Cell>{
                         activeRow++;
                         activeColumn = 0;
                         cells[activeRow][activeColumn].setActive();
+                        //FEATURE - DISTINGUISHING LAST TRY
                         if(activeRow >= cells.length-1){
                             for(int i = 0; i < cells[activeRow].length; i++){
                                 cells[activeRow][i].setInactive();
@@ -136,7 +137,7 @@ public class Grid implements Iterable<Cell>{
 
     void keyPressedLetter(char letter){
         if(!gameFinished){
-            //Converts uppercase characters to lowercase.
+            //FIX - Converts uppercase characters to lowercase.
             char convertedLetter = Character.toLowerCase(letter);
             //IMPLEMENTED LOGGER
             logger.log(Level.INFO,"grid keypress received letter: " + convertedLetter);

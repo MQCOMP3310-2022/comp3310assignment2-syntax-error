@@ -11,19 +11,16 @@ import java.util.logging.*;
 
 
 public final class App extends JFrame {
+    //Implemented Logger
     static {
-        // must set before the Logger
-        // loads logging.properties 
         try {
-            //If the program cannot find the file, right-click on the .properties file, and get the relative path
             LogManager.getLogManager().readConfiguration(new FileInputStream("resources/logging.properties"));
         } catch (SecurityException | IOException e1) {
-            //No logger, yet. Printing to console
             e1.printStackTrace();
         }
     }
     
-    //Logger was created for App.java
+    //Logger created for App.java
     private static final Logger logger = Logger.getLogger(App.class.getName());
 
     class WordleGame extends JPanel implements KeyListener{

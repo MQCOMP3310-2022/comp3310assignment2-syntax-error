@@ -64,6 +64,12 @@ public class Cell extends Rectangle{
                 textColor = Color.WHITE;
                 isEmpty = false;
                 break; 
+            case 5:                             //FEATURE - DISTINGUISHING LAST TRY
+                displayCharacter = ' ';
+                backbgroundColor = Color.ORANGE;
+                textColor = Color.WHITE;
+                isEmpty = true;
+                break;  
             default:
                 displayCharacter = ' ';
                 backbgroundColor = Color.DARK_GRAY;
@@ -124,6 +130,7 @@ public class Cell extends Rectangle{
         return "" + displayCharacter;
     }
 
+    @Override
     public String toString(){
         return Integer.toString(col) + Integer.toString(row) + ":'" + displayCharacter + "'";
     }
